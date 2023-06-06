@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="input-container">
+      <input type="number" id="temperature" placeholder="Enter temperature" />
+      <div class="btn-group">
+        <button onclick="convert('k2c')">K to °C</button>
+        <button onclick="convert('c2k')">°C to K</button>
+        <button onclick="convert('c2f')">°C to °F</button>
+        <button onclick="convert('f2c')">°F to °C</button>
+      </div>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
